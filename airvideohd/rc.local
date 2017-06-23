@@ -1,0 +1,7 @@
+#!/bin/sh
+mkdir -p /config/logs
+mkdir -p /config/ApplicationData
+cp -n /Server.properties /config/server.properties
+chown -R nobody:users /config
+chown -R nobody:users /conversionPath
+exit 0
