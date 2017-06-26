@@ -3,5 +3,6 @@
 # initital setup
 ./etc/rc.local
 
-exec /sbin/setuser nobody /AirVideoServerHD --config=/config/server.properties 
+#exec /sbin/setuser nobody /AirVideoServerHD --config=/config/server.properties 
+./AirVideoServerHD --config=/config/server.properties 
 
